@@ -21,7 +21,7 @@ Now you can launch a container to start the server
 
 ## Endpoints
 
-GET /fizzbuzz/v1/produce
+- GET /fizzbuzz/v1/produce
 
 Accepts five URL parameters : three integers int1, int2 and limit, and two strings str1 and str2.
 Returns a list of strings with numbers from 1 to limit, where: all multiples of int1 are replaced by str1,
@@ -32,7 +32,7 @@ Execute :
 or just put the URL in your browser:
     http://localhost:8080/fizzbuzz/v1/produce?int1=5&int2=4&limit=50&str1=Fizz&str2=Buzz
 
-GET /fizzbuzz/v1/stats
+- GET /fizzbuzz/v1/stats
 
 No parameters. It allows users to know what the most frequent request has been.
 Returns the parameters corresponding to the most used request, as well as the number of hits for this request.
